@@ -92,8 +92,8 @@
   background-position: -132px 0; }
 
 /* no arrows on touch screens */
-.pswp--touch .pswp__button--arrow--left,
-.pswp--touch .pswp__button--arrow--right {
+.pswp--touch:not(.pswp--preventswipe) .pswp__button--arrow--left,
+.pswp--touch:not(.pswp--preventswipe) .pswp__button--arrow--right {
   visibility: hidden; }
 
 /*
